@@ -4,12 +4,14 @@ public class Ingredients {
     private final int id;
     private final String name;
     private final Float price;
-    private final Unity unity;
+    private  final Menu menu;
+    private final Unit unit;
 
-    public Ingredients(int id, String name, Float price, Unity unity) {
+    public Ingredients(int id, String name, Float price, Menu menu, Unit unit) {
         this.id = id;
         this.name = name;
         this.price = price;
-        this.unity = unity;
+        this.menu = menu;
+        this.unit = unit;
     }
 }
